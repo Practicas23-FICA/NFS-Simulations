@@ -1,0 +1,214 @@
+Retrieved by E4-Web: 2022/11/10,09:10:55                             1 0  0    0
+ 1.001000+3 9.991700-1          0          0          2          5 125 1451    1
+ 0.000000+0 0.000000+0          0          0          0          6 125 1451    2
+ 1.000000+0 1.500000+8          2          0         10         31 125 1451    3
+ 0.000000+0 0.000000+0          0          0        143          2 125 1451    4
+  1-H -  1 LANL       EVAL-FEB98 G.M.HALE, P.G.YOUNG               125 1451    5
+ CH99                 DIST-JAN09                     20090105      125 1451    6
+----JEF-31            MATERIAL  125                                125 1451    7
+-----INCIDENT NEUTRON DATA                                         125 1451    8
+------ENDF-6 FORMAT                                                125 1451    9
+*****************************  JEFF-3.1.2 ************************ 125 1451   10
+**                                                              ** 125 1451   11
+**         Original data taken from:  JEFF-3.1.1                ** 125 1451   12
+**                                                              ** 125 1451   13
+****************************************************************** 125 1451   14
+***************************  JEFF-3.1.1  ************************* 125 1451   15
+**                                                              ** 125 1451   16
+**         Original data taken from:  JEFF-3.1                  ** 125 1451   17
+**                                                              ** 125 1451   18
+****************************************************************** 125 1451   19
+*****************************  JEFF-3.1  ************************* 125 1451   20
+**                                                              ** 125 1451   21
+**         Original data taken from:  ENDF/B-VI.8               ** 125 1451   22
+**                                                              ** 125 1451   23
+****************************************************************** 125 1451   24
+                                                                   125 1451   25
+ ****************************************************************  125 1451   26
+                                                                   125 1451   27
+ ENDF/B-VI MOD 5 Revision, Jan. 2001, S.C. Frankle and P.G. Young  125 1451   28
+                 (LANL)                                            125 1451   29
+                                                                   125 1451   30
+    The energy of the photon from neutron capture (MT=102) in      125 1451   31
+ File 12 has been updated to 2.2233 MeV.                           125 1451   32
+                                                                   125 1451   33
+ ****************************************************************  125 1451   34
+                                                                   125 1451   35
+ ENDF/B-VI MOD 4 Revision, February 1998, G. M. Hale and           125 1451   36
+           P. G. Young (LANL)                                      125 1451   37
+                                                                   125 1451   38
+    This is an update of the ENDF/B-VI evaluation to extend the    125 1451   39
+ incident neutron energy range from 100 to 150 MeV.  The elastic   125 1451   40
+ scattering cross section from the R-matrix analysis used for      125 1451   41
+ ENDF/B-VI is matched in the energy region of 26 - 30 MeV to       125 1451   42
+ elastic cross sections from Arndt's phase-shift solution, Vol.40. 125 1451   43
+ Arndt's elastic cross section is used directly in the evaluation  125 1451   44
+ above the matching region to 150 MeV.  A smooth extrapolation was 125 1451   45
+ made of MT=102 to 150 MeV.                                        125 1451   46
+    This new evaluation has a smoother transition across the       125 1451   47
+ matching region than did the previous ENDF/B-VI file, and         125 1451   48
+ corresponds more closely to the recommendation of the EANDC       125 1451   49
+ standards subcommittee for n-p cross sections above 20 MeV.       125 1451   50
+ Proton kerma values calculated from this file deviate by no more  125 1451   51
+ than 2% from the previous ENDF/B-VI values at energies up to 100  125 1451   52
+ MeV.                                                              125 1451   53
+                                                                   125 1451   54
+ ***************************************************************** 125 1451   55
+                                                                   125 1451   56
+ ENDF/B-VI MOD 3 Revision, October 1997, P.G. Young (LANL)         125 1451   57
+                                                                   125 1451   58
+    The cross section for radiative capture at thermal was         125 1451   59
+ changed to the ENDF/B-V value (from 0.3326 to 0.3320 b), with     125 1451   60
+ appropriate changes at lower energies for 1/v behavior.  The      125 1451   61
+ total cross section was slightly decreased to accomodate this     125 1451   62
+ change in radiative capture.                                      125 1451   63
+                                                                   125 1451   64
+ ***************************************************************** 125 1451   65
+                                                                   125 1451   66
+ ENDF/B-VI MOD 2 Revision, July 1991                               125 1451   67
+                                                                   125 1451   68
+    The only revision was to add to the description of the         125 1451   69
+ ENDF/B-VI evaluation, given below, the comments on the standards  125 1451   70
+ covariances.                                                      125 1451   71
+                                                                   125 1451   72
+ ***************************************************************** 125 1451   73
+                                                                   125 1451   74
+ ENDF/B-VI MOD 1 Evaluation, October 1989, G.M. Hale,              125 1451   75
+                 D.C. Dodder, E.R. Siciliano, W.B. Wilson (LANL)   125 1451   76
+                                                                   125 1451   77
+    This is a completely new evaluation independent of ENDF/B-V,   125 1451   78
+ except as noted below.                                            125 1451   79
+     Elastic cross sections and angular distributions below 40 MeV 125 1451   80
+ were determined with a new R-Matrix calculation by Hale and       125 1451   81
+ Dodder.  This calculation gives the ENDF/B-VI elastic scattering  125 1451   82
+ cross sections for hydrogen below 20 MeV.  Also, elastic cross    125 1451   83
+ sections and angular distributions above 20 MeV were calculated   125 1451   84
+ with the npscat code using phase shifts of Arndt by Siciliano and 125 1451   85
+ Wilson.                                                           125 1451   86
+    Angular distributions at 26 MeV agreed well: below this energy 125 1451   87
+ R-Matrix angular distributions were used; at and above 26 MeV     125 1451   88
+ phase shift angular distributions were used.                      125 1451   89
+    Elastic cross sections below 26 MeV were taken from the        125 1451   90
+ R-Matrix work; those above 30 MeV were taken from the phase shift 125 1451   91
+ work.  Between these energies the elastic cross section was taken 125 1451   92
+ as follows:                                                       125 1451   93
+                                                                   125 1451   94
+      E (eV)       R-Matrix     Phase shift     MF3MT2             125 1451   95
+     ----------   ----------   -------------   ---------           125 1451   96
+      2.6E+07      0.36345         0.36029      0.36345            125 1451   97
+      2.7E+07      0.34859                      0.34811            125 1451   98
+      2.8E+07      0.33488         0.33104      0.33295            125 1451   99
+      2.9E+07      0.32227                      0.31891            125 1451  100
+      3.0E+07      0.31080         0.30567      0.30567            125 1451  101
+                                                                   125 1451  102
+    These calculated results were merged with available (n,gamma)  125 1451  103
+ data by Wilson.  ENDF/B-V (n,gamma) data were used below 20 MeV;  125 1451  104
+ above this energy, an approximation to the data of M. Bosman et   125 1451  105
+ al. [Bo79] was used.                                              125 1451  106
+    The (n,gamma) was adjusted to agree exactly with Mughabghab    125 1451  107
+ [Mu81] value at thermal (0.3326 b), and lower energies were       125 1451  108
+ modified according to 1/v law (P. Young, 10/17/89).  The total    125 1451  109
+ cross section was then summed again to reflect the revised        125 1451  110
+ (n,gamma).                                                        125 1451  111
+                                                                   125 1451  112
+    File 2, MT151 resonance parameters were taken from ENDF/B-V.   125 1451  113
+                                                                   125 1451  114
+    File 12 and File 14, MT102 are also taken from ENDF/B-V.       125 1451  115
+                                                                   125 1451  116
+ ----------------------------------------------------------------- 125 1451  117
+ STANDARDS COVARIANCES                                             125 1451  118
+                                                                   125 1451  119
+ Phase 1 reviewers of the ENDF/B-VI standards cross sections have  125 1451  120
+ expressed the concern that the uncertainties resulting from the   125 1451  121
+ combination of R-matrix and simultaneous evaluations might have   125 1451  122
+ led to uncertainties that are too small.  As a result, the        125 1451  123
+ Standards Subcommittee produced (at the May, 1990 CSEWG meeting)  125 1451  124
+ a set of expanded covariance estimates for the standard cross     125 1451  125
+ section reactions.  These uncertainties are estimates such that   125 1451  126
+ if a modern day experiment were performed on a given standard     125 1451  127
+ cross section using the best techniques, approximately 2/3 of     125 1451  128
+ the results should fall within these expanded uncertainties. The  125 1451  129
+ expanded uncertainties for the n + H-1 total cross section are    125 1451  130
+ as follows:                                                       125 1451  131
+                                                                   125 1451  132
+    Energy Range (keV)    Estimated Uncertainty (%)                125 1451  133
+    ------------------    -------------------------                125 1451  134
+     1.0E-08 - 20000                0.2                            125 1451  135
+                                                                   125 1451  136
+ ----------------------------------------------------------------- 125 1451  137
+REFERENCES                                                         125 1451  138
+                                                                   125 1451  139
+[Bo79]  M. Bosman et al., Phys.Lett. 82B, 212 (1979).              125 1451  140
+[Ch99]  M.B. Chadwick, P.G. Young, G.M. Hale, et al., Los Alamos   125 1451  141
+  National Laboratory report, LA-UR-99-1222 (1999)                 125 1451  142
+[Mu81]  S.F. Mughabghab, M. Divadeenam, and N.E. Holden, Neutron   125 1451  143
+    Cross Sections, Vol. 1, Neutron Resonance Parameters and       125 1451  144
+    Thermal Cross Sections (Academic Press, 1981).                 125 1451  145
+                                                                   125 1451  146
+ ************************ C O N T E N T S ************************ 125 1451  147
+                                1        451        155          5 125 1451  148
+                                3          2         58          4 125 1451  149
+ 0.000000+0 0.000000+0          0          0          0          0 125 1  099999
+ 0.000000+0 0.000000+0          0          0          0          0 125 0  0    0
+ 1.001000+3 9.991700-1          0          0          0          0 125 3  2    1
+ 0.000000+0 0.000000+0          0          0          1        163 125 3  2    2
+        163          5                                             125 3  2    3
+ 1.000000-5 2.047800+1 2.530000-2 2.047800+1 1.000000+2 2.046400+1 125 3  2    4
+ 1.000000+3 2.034400+1 5.000000+3 1.982700+1 1.000000+4 1.922200+1 125 3  2    5
+ 2.000000+4 1.813000+1 3.000000+4 1.717300+1 4.000000+4 1.632500+1 125 3  2    6
+ 5.000000+4 1.557100+1 6.000000+4 1.489400+1 7.000000+4 1.428300+1 125 3  2    7
+ 8.000000+4 1.373000+1 9.000000+4 1.322600+1 1.000000+5 1.276500+1 125 3  2    8
+ 1.200000+5 1.195100+1 1.400000+5 1.125500+1 1.600000+5 1.065200+1 125 3  2    9
+ 1.800000+5 1.012500+1 2.000000+5 9.660900+0 2.200000+5 9.247800+0 125 3  2   10
+ 2.400000+5 8.878000+0 2.600000+5 8.544700+0 2.800000+5 8.242800+0 125 3  2   11
+ 3.000000+5 7.967800+0 3.200000+5 7.716200+0 3.400000+5 7.485000+0 125 3  2   12
+ 3.600000+5 7.271800+0 3.800000+5 7.074500+0 4.000000+5 6.891200+0 125 3  2   13
+ 4.200000+5 6.720500+0 4.400000+5 6.561100+0 4.600000+5 6.411700+0 125 3  2   14
+ 4.800000+5 6.271500+0 5.000000+5 6.139600+0 5.500000+5 5.841200+0 125 3  2   15
+ 6.000000+5 5.580500+0 6.500000+5 5.350400+0 7.000000+5 5.145300+0 125 3  2   16
+ 7.500000+5 4.961100+0 8.000000+5 4.794500+0 8.500000+5 4.642900+0 125 3  2   17
+ 9.000000+5 4.504200+0 9.500000+5 4.376500+0 1.000000+6 4.258600+0 125 3  2   18
+ 1.100000+6 4.047100+0 1.200000+6 3.862500+0 1.300000+6 3.699200+0 125 3  2   19
+ 1.400000+6 3.553300+0 1.500000+6 3.421900+0 1.600000+6 3.302500+0 125 3  2   20
+ 1.700000+6 3.193400+0 1.800000+6 3.093100+0 1.900000+6 3.000300+0 125 3  2   21
+ 2.000000+6 2.914200+0 2.100000+6 2.833900+0 2.200000+6 2.758800+0 125 3  2   22
+ 2.300000+6 2.688300+0 2.400000+6 2.621900+0 2.500000+6 2.559200+0 125 3  2   23
+ 2.600000+6 2.499900+0 2.700000+6 2.443600+0 2.800000+6 2.390200+0 125 3  2   24
+ 2.900000+6 2.339300+0 3.000000+6 2.290700+0 3.200000+6 2.199900+0 125 3  2   25
+ 3.400000+6 2.116600+0 3.600000+6 2.039800+0 3.800000+6 1.968600+0 125 3  2   26
+ 4.000000+6 1.902400+0 4.200000+6 1.840600+0 4.400000+6 1.782800+0 125 3  2   27
+ 4.600000+6 1.728600+0 4.800000+6 1.677500+0 5.000000+6 1.629400+0 125 3  2   28
+ 5.500000+6 1.520200+0 6.000000+6 1.424400+0 6.500000+6 1.339600+0 125 3  2   29
+ 7.000000+6 1.263900+0 7.500000+6 1.195900+0 8.000000+6 1.134500+0 125 3  2   30
+ 8.500000+6 1.078600+0 9.000000+6 1.027700+0 9.500000+6 9.810600-1 125 3  2   31
+ 1.000000+7 9.381600-1 1.050000+7 8.985700-1 1.100000+7 8.619400-1 125 3  2   32
+ 1.150000+7 8.279300-1 1.200000+7 7.962800-1 1.250000+7 7.667600-1 125 3  2   33
+ 1.300000+7 7.391500-1 1.350000+7 7.132900-1 1.400000+7 6.890000-1 125 3  2   34
+ 1.450000+7 6.661500-1 1.500000+7 6.446200-1 1.550000+7 6.242900-1 125 3  2   35
+ 1.600000+7 6.050700-1 1.700000+7 5.696100-1 1.800000+7 5.376400-1 125 3  2   36
+ 1.900000+7 5.086600-1 2.000000+7 4.822700-1 2.100000+7 4.581500-1 125 3  2   37
+ 2.200000+7 4.360200-1 2.300000+7 4.156500-1 2.400000+7 3.968700-1 125 3  2   38
+ 2.500000+7 3.795000-1 2.600000+7 3.634500-1 2.700000+7 3.478537-1 125 3  2   39
+ 2.800000+7 3.331100-1 2.900000+7 3.194406-1 3.000000+7 3.067300-1 125 3  2   40
+ 3.200000+7 2.837439-1 3.400000+7 2.637076-1 3.500000+7 2.547000-1 125 3  2   41
+ 3.600000+7 2.463012-1 3.800000+7 2.310316-1 4.000000+7 2.174000-1 125 3  2   42
+ 4.200000+7 2.051343-1 4.400000+7 1.940573-1 4.500000+7 1.889000-1 125 3  2   43
+ 4.600000+7 1.839739-1 4.800000+7 1.747812-1 5.000000+7 1.664000-1 125 3  2   44
+ 5.200000+7 1.587416-1 5.400000+7 1.517079-1 5.500000+7 1.484000-1 125 3  2   45
+ 5.600000+7 1.452092-1 5.800000+7 1.391628-1 6.000000+7 1.336000-1 125 3  2   46
+ 6.200000+7 1.284925-1 6.400000+7 1.237510-1 6.500000+7 1.215000-1 125 3  2   47
+ 6.600000+7 1.193218-1 6.800000+7 1.151762-1 7.000000+7 1.113000-1 125 3  2   48
+ 7.200000+7 1.076895-1 7.400000+7 1.043141-1 7.500000+7 1.027000-1 125 3  2   49
+ 7.600000+7 1.011310-1 7.800000+7 9.812878-2 8.000000+7 9.530000-2 125 3  2   50
+ 8.200000+7 9.264880-2 8.400000+7 9.016176-2 8.500000+7 8.897000-2 125 3  2   51
+ 8.600000+7 8.781017-2 8.800000+7 8.558545-2 9.000000+7 8.348000-2 125 3  2   52
+ 9.200000+7 8.148954-2 9.400000+7 7.960585-2 9.500000+7 7.870000-2 125 3  2   53
+ 9.600000+7 7.781836-2 9.800000+7 7.612699-2 1.000000+8 7.452000-2 125 3  2   54
+ 1.050000+8 7.083283-2 1.100000+8 6.756000-2 1.150000+8 6.465965-2 125 3  2   55
+ 1.200000+8 6.208000-2 1.250000+8 5.976249-2 1.300000+8 5.768000-2 125 3  2   56
+ 1.350000+8 5.580506-2 1.400000+8 5.411000-2 1.450000+8 5.257079-2 125 3  2   57
+ 1.500000+8 5.117000-2                                             125 3  2   58
+ 0.000000+0 0.000000+0          0          0          0          0 125 3  099999
+ 0.000000+0 0.000000+0          0          0          0          0 125 0  0    0
+ 0.000000+0 0.000000+0          0          0          0          0   0 0  0    0
+ 0.000000+0 0.000000+0          0          0          0          0  -1 0  0    0

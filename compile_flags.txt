@@ -1,0 +1,5 @@
+-std=gnu++17
+-I/home/miguel/root/include
+-I/media/Data/ACTAR_Tracking/MyActarEvents/inc
+-I/media/Data/ACTAR_Tracking/ActRoot/inc
+-I/media/Data/ACTAR_Tracking/ActSim/inc
