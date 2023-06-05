@@ -16,7 +16,7 @@ void RunSimulation()
 
     //Read geometry
     auto* geo {new SimGeometry()};
-    geo->ReadGeometry("/media/Data/Praticas_23/Geometries/", "geo0");
+    geo->ReadGeometry("./Geometries/", "geo0");
 
     //Read cross sections
     SimCrossSection xs {};
