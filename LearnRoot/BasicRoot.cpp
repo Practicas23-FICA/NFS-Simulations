@@ -15,7 +15,7 @@
 #include "TMath.h"//para funcións matemáticas útiles xa escritas en root
 
 //Incluso podes incluir ficheiros situados en calquera directorio! Tanto .h como .cpp
-#include "./Kinematics.cpp"//agora podemos acceder ás funcións defenidas
+#include "./../Kinematics.cpp"//agora podemos acceder ás funcións defenidas
 //aqui como Kinematics::GetEnergy3CM(), por exemplo
 
 //as funcións sempre se escriben así:
